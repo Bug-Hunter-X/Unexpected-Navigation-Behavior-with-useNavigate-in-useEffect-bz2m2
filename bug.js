@@ -1,0 +1,1 @@
+In React Router Dom v6, navigating with `useNavigate` inside a `useEffect` hook that doesn't depend on any state values might cause unexpected behavior.  If the navigation happens on every render, it could lead to an infinite render loop or erratic navigation.
